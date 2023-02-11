@@ -16,8 +16,6 @@ import io.swagger.v3.oas.annotations.info.Info;
  * - H2 Database
  * - OpenFeign
  *
- * handleConstraintViolationExceptions
- *
  */
 @EnableFeignClients
 @SpringBootApplication

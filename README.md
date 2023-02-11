@@ -22,3 +22,17 @@ Neste projeto usamos os padrões:
 - Recorremos ao spring initializr para gerar o projeto, contendo as dependência Spring Web, H2 database, OpenFeign e Spring Data JPA.
 
 - Adicionamos a dependência `springdoc-openapi-starter-webmvc-ui` para cuidar da documentação.
+
+### Implementações
+
+- Criar pasta exception
+- Remover complexidade da classe de serviço para retornar as ResponseEntities
+- Atribuir à classe GlobalExceptionHandler o tratamento das exceções
+- Tratar de exceções causadas por declarações incorretas do cliente.
+- Tratar de exceções por validações dos campos no corpo da requisição do cliente.
+- Criar classe ErrorResult para retornar mensagens customizadas no corpo da resposta.
+- Criar classe RecordNotFoundException e usá-las na classe de serviço.
+
+### Próximos passos
+
+- Refatoração
